@@ -1,5 +1,5 @@
 
-import {type Spot} from '../services/spotService'
+import {type Spot} from '@/types'
 import {Card, CardContent, CardFooter, CardTitle} from "@/components/ui/card.tsx";
 import {Plane, Zap, ZapOff} from 'lucide-react';
 

@@ -1,11 +1,6 @@
 
 import ApiClient from "@/services/apiClient.ts";
+import {type Spot} from "@/types";
 
-export interface Spot{
-    id:number,
-    name:string,
-    gpuCount:number,
-    hasAircraft:boolean,
-}
 
 export default new ApiClient<Spot>('/spots');

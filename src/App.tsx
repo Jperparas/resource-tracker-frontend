@@ -1,6 +1,6 @@
 
 import SpotGrid from "@/components/SpotGrid.tsx";
-
+import GpuLogList from "@/components/GpuLogList.tsx";
 
 
 function App() {
@@ -8,7 +8,8 @@ function App() {
 
   return (
       <div >
-         <SpotGrid />
+         <GpuLogList/>
+
       </div>
   )
 }
